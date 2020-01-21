@@ -1,4 +1,4 @@
-**rest-endpoint:** http://localhost:8080/sale/3/shipping
+**rest-endpoint:** http://localhost:8080/sale/3/shipping <br>
 **swagger-ui:** http://localhost:8080/swagger-ui.html <br>
 
 **test-covarage:** <br>
