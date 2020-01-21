@@ -1,0 +1,38 @@
+plugins {
+	id 'org.springframework.boot' version '2.2.3.RELEASE'
+	id 'io.spring.dependency-management' version '1.0.8.RELEASE'
+	id 'java'
+	id 'com.google.cloud.tools.jib' version '1.8.0'
+}
+
+group = 'com.bundle'
+version = '0.0.1-SNAPSHOT'
+sourceCompatibility = '1.8'
+
+repositories {
+	maven {
+		url "https://plugins.gradle.org/m2/"
+	}
+	mavenCentral()
+}
+
+dependencies {
+	implementation 'org.springframework.boot:spring-boot-starter-web'
+	testImplementation('org.springframework.boot:spring-boot-starter-test') {
+		exclude group: 'org.junit.vintage', module: 'junit-vintage-engine'
+	}
+	compileOnly 'org.projectlombok:lombok:1.18.10'
+	annotationProcessor 'org.projectlombok:lombok:1.18.10'
+	compile group: 'com.google.code.gson', name: 'gson', version: '2.7'
+	compile group: 'io.springfox', name: 'springfox-swagger2', version: '2.9.2'
+	compile group: 'io.springfox', name: 'springfox-swagger-ui', version: '2.0.2'
+	compile('org.springframework.boot:spring-boot-gradle-plugin:2.2.1.RELEASE')
+	compile('com.google.cloud.tools.jib:com.google.cloud.tools.jib.gradle.plugin:1.8.0')
+
+}
+
+apply plugin: 'com.google.cloud.tools.jib'
+
+test {
+	useJUnitPlatform()
+}

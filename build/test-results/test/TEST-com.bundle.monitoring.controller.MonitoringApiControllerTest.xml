@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.bundle.monitoring.controller.MonitoringApiControllerTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2020-01-21T22:47:15" hostname="Kerem-MacBook-Pro.local" time="0.733">
+  <properties/>
+  <testcase name="whenSaleIdGivenThenReturnAllInfo()" classname="com.bundle.monitoring.controller.MonitoringApiControllerTest" time="0.733"/>
+  <system-out><![CDATA[2020-01-22 01:47:15.883  INFO 94279 --- [    Test worker] o.s.mock.web.MockServletContext          : Initializing Spring TestDispatcherServlet ''
+2020-01-22 01:47:15.884  INFO 94279 --- [    Test worker] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2020-01-22 01:47:15.884  INFO 94279 --- [    Test worker] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 0 ms
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

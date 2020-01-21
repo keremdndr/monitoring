@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.bundle.monitoring.service.impl.ShippingServiceImplTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2020-01-21T22:47:17" hostname="Kerem-MacBook-Pro.local" time="0.372">
+  <properties/>
+  <testcase name="whenShippingIdGivenThenReturnShipping()" classname="com.bundle.monitoring.service.impl.ShippingServiceImplTest" time="0.372"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
